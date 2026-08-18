@@ -98,6 +98,10 @@ footer{background:#020304;color:white;text-align:center;padding:55px 22px}
 footer img{width:210px;max-height:120px;object-fit:contain}
 footer p{font-size:.82rem;letter-spacing:.12em}
 footer a{color:var(--blue);text-decoration:none}
+.social-links{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:22px}
+.social-links a{width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #3b444b;transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.social-links a:hover{transform:translateY(-2px);border-color:var(--blue);background:#0b1115}
+.social-links img{width:20px;height:20px;object-fit:contain}
 .copyright{color:#697178;margin-top:28px}
 @media(max-width:1100px){
   nav a:not(.nav-cta){display:none}
